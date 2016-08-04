@@ -1,5 +1,8 @@
 #pragma once
 #include "Product.h"
 
-class Software : Product {
+class Software : public Product {
+public:
+	Software();
+	Software(double);
 };
