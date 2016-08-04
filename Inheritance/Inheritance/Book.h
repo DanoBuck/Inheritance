@@ -1,7 +1,9 @@
 #pragma once
 #include "Product.h"
 
-class Book : Product {
+class Book : public Product {
 public:
+	Book();
+	Book(double);
 	double getGrossPrice();
 };
