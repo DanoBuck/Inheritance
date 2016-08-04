@@ -7,5 +7,9 @@ protected:
 public:
 	Product();
 	Product(double);
-	double getGrossPrice();
+	virtual double getGrossPrice();
 };
+
+// Function Calls - Not Needed On An Object
+void populateArray(Product*[]);
+void print(Product*[]);
