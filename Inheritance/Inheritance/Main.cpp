@@ -12,6 +12,7 @@ int main() {
 	Book *book;
 	Software *software;
 
+	// Initial Tests
 	double price = 10;
 	cout << "Enter Price Of Book:\n ";
 	cin >> price;
@@ -33,6 +34,7 @@ int main() {
 	// Function Calls
 	populateArray(productArray);
 	print(productArray);
+	sortArray(productArray);
 
 	system("pause");
 	return(0);
